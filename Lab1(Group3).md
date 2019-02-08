@@ -32,8 +32,8 @@ slope = 0.04793591266894401
 intercept = 0.6213770978761325
 $$y=0.04793591266894401x+0.6213770978761325$$
 
-#2) "Does absorbance increase linearly with concentration of the red dye?"
-#Yes, absorbance increases linearly with concentration until a certain threshold where the solution has become opaque. After removing the last two data points (that are past the mentioned threshold), our experimental data roughly fits a linear regression model; its lack of accuracy is due to experimental error, but a general linear shape can be seen from the graph generated from the data.
+2) "Does absorbance increase linearly with concentration of the red dye?"
+  Yes, absorbance increases linearly with concentration until a certain threshold where the solution has become opaque. After removing the last two data points (that are past the mentioned threshold), our experimental data roughly fits a linear regression model; its lack of accuracy is due to experimental error, but a general linear shape can be seen from the graph generated from the data.
 
 3) What is the value of the extinction coefficient, ε?
 The extinction coefficient is calculated by A = εbc. Since the data is meant to model a linear trend, ε = A/bc can be calculated using any data point on the line. Using the second data point:
