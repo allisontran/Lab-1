@@ -59,20 +59,20 @@ $$density=(0.6985*1M)+\frac{997kg}{m^3}=\frac{997.6985kg}{m^3}$$
 7) Approximately what should the accuracy be for the density measurement?
 
 Constants:
-Mass_flask_empty= 21.093g
-Mass_flask_solution= 124.688g
+Mass_Flask_Empty= 21.093g;
+Mass_Flask_Solution= 124.688g
 
-$$Mass_solution= mass_flask_solution - Mass_flask_empty$$
+$$Mass\,Solution= Mass\,Flask\,Solution - Mass\,Flask\,Empty$$
 
-Density_calculated= Mass_solution/(0.1L)
-Density_actual= 997.7kg/m^3
+Density_Calculated= Mass_Solution/(0.1L);
+Density_Actual= 997.7kg/m^3
 
-$$percent_error=\frac{(density_calculated - density_actual)*100}{density_actual}$$
+$$percent\,error=\frac{(Density\,Calculated - Density\,Actual)*100}{Density\,Actual}=0.038$$
 
 The percent error for the density measurement is around 3.8%
 
 8) Don’t forget to write a brief paragraph on conclusions and on suggestions using Markdown (make sure you connect your conclusions to your objectives for doing the research)
 
-Due to accuracy errors during data collection, we were unable to get the desired result of a linear trend between the absorbance and concentration of the solution. Though the data was initially linear for the first few concentrations, the trend became overall exponential when the last few points were factored in. We believe that the experimental errors were due to inconsistencies with the equipment that was used to measure the absorbance of the solution samples, as we got different readings when testing the same sample multiple times. To verify our data, we remade several of our solution samples and tested them again, and used the best data from each trial. In the end, we were able to conclude that our data roughly fits a linear regression model when using smaller concentrations of the red dye. If we were to repeat the experiment, it would be helpful to have clearer instructions for setting up and using the photometer, especially in terms of pulling the sample up through the tube using the syringe and checking for air bubbles. The ProCoDA software was relatively easy to understand for data collection, so most of the changes to the procedure would be in terms of using and operating the physical lab equipment.
+Due to accuracy errors during data collection, we were unable to get the desired result of a linear trend between the absorbance and concentration of the solution. Though the data was initially linear for the first few concentrations, the trend became overall exponential when the last few points were factored in. We believe that the experimental errors were due to inconsistencies with the equipment that was used to measure the absorbance of the solution samples, as we got different readings when testing the same sample multiple times. To verify our data, we remade several of our solution samples and tested them again, and used the best data from each trial. In the end, we were able to conclude that our data roughly fits a linear regression model when using smaller concentrations of the red dye. If we were to repeat the experiment, it would be helpful to have clearer instructions for setting up and using the photometer, especially in terms of pulling the sample up through the tube using the syringe and checking for air bubbles. The ProCoDA software was relatively easy to understand for data collection, so most of the changes to the procedure would be in terms of using and operating the physical lab equipment. Regardless, we completed our experimental objectives in the sense that we learned how to calibrate and use various lab equipment, gained proficiency in regard to pipetting and preparing dillusions, and learned how to measure concentrations using a photometer.
 
 ```
