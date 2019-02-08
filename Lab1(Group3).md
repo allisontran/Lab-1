@@ -26,7 +26,7 @@ ax.grid(True)
 plt.show()
 
 ```
-![linear](https://github.com/ll643/PythonTutorial/blob/master/Figure1.png)
+![lab1](https://github.com/allisontran/Lab-1/blob/master/Lab1Figure(Group3).png)
 
 slope = 0.04793591266894401
 intercept = 0.6213770978761325
