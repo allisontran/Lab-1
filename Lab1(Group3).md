@@ -58,6 +58,17 @@ $$density=(0.6985*1M)+\frac{997kg}{m^3}=\frac{997.6985kg}{m^3}$$
 
 7) Approximately what should the accuracy be for the density measurement?
 
+Constants:
+Mass_flask_empty= 21.093g
+Mass_flask_solution= 124.688g
+
+$$Mass_solution= mass_flask_solution - Mass_flask_empty$$
+
+Density_calculated= Mass_solution/(0.1L)
+Density_actual= 997.7kg/m^3
+
+$$percent_error=\frac{(density_calculated - density_actual)*100}{density_actual}$$
+
 The percent error for the density measurement is around 3.8%
 
 8) Don’t forget to write a brief paragraph on conclusions and on suggestions using Markdown (make sure you connect your conclusions to your objectives for doing the research)
