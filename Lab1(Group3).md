@@ -48,6 +48,7 @@ The accuracy of the density measurement for the NaCl solution is controlled by t
 
 6) What density did you expect (see prelab 2)?
 The density that we calculated in the prelab is 997.6985kg/m^3
+$$density=(0.6985*1M)+\frac{997kg}{m^3}=\frac{997.6985kg}{m^3}$$
 
 7) Approximately what should the accuracy be for the density measurement?
 The percent error for the density measurement is around 3.8%
