@@ -26,6 +26,8 @@ ax.grid(True)
 plt.show()
 
 ```
+![linear](https://github.com/ll643/PythonTutorial/blob/master/Figure1.png)
+
 slope = 0.04793591266894401
 intercept = 0.6213770978761325
 $$y=0.04793591266894401x+0.6213770978761325$$
@@ -34,7 +36,9 @@ $$y=0.04793591266894401x+0.6213770978761325$$
 Yes, absorbance increases linearly with concentration until a certain threshold where the solution has become opaque. After removing the last two data points (that are past the mentioned threshold), our experimental data roughly fits a linear regression model; its lack of accuracy is due to experimental error, but a general linear shape can be seen from the graph generated from the data.
 
 3) What is the value of the extinction coefficient, ε?
-The extinction coefficient is calculated by A = εbc. Since the data is meant to model a linear trend, ε = A/bc can be calculated using any data point on the line. Using the second data point, ε = (0.437)/(19mm)(1mg/L) = 0.023L/(mm)(mg).
+The extinction coefficient is calculated by A = εbc. Since the data is meant to model a linear trend, ε = A/bc can be calculated using any data point on the line. Using the second data point:
+
+$$\epsilon=\frac{(0.437)}{(19mm)*(1mg/L)} = 0.023L/(mm)(mg)$$
 
 4) Did you use interpolation or extrapolation to get the concentration of the unknown?
 We used interpolation to get the concentration of the unknown because the adsorption value of the unknown solution was within the values that we had collected data for.
