@@ -65,16 +65,19 @@ $$density=(0.6985*1M)+\frac{997kg}{m^3}=\frac{997.6985kg}{m^3}$$
 ## Approximately what should the accuracy be for the density measurement?
 
 ```python
+from aguaclara.core.units import unit_registry as u
+u.define('equivalent = mole = eq')
+import aguaclara.research.environmental_processes_analysis as epa
 #Constants:
-Mass_Flask_Empty= 21.093g
-Mass_Flask_Solution= 124.688g
+Mass_Flask_Empty= 21.093*(u.g)
+Mass_Flask_Solution= 124.688*(u.g)
 ```
 
 $$Mass\,Solution= Mass\,Flask\,Solution - Mass\,Flask\,Empty$$
 
 ```python
-Density_Calculated= Mass_Solution/(0.1L);
-Density_Actual= 997.7kg/m^3
+Density_Calculated= Mass_Solution/(0.1*(u.L)
+Density_Actual= 997.7*(u.kg/U.m**3)
 ```
 
 $$percent\,error=\frac{(Density\,Calculated - Density\,Actual)*100}{Density\,Actual}=0.038$$
